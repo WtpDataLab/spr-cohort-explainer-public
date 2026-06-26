@@ -1,0 +1,46 @@
+{
+  "name": "spr-cohort-explainer",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Interactive explainer: how a Dutch pension fund's collective return becomes each age cohort's credited return under the solidaire premieregeling (SPR).",
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "author": "WtpDataLab",
+  "homepage": "https://github.com/WtpDataLab/spr-cohort-explainer#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WtpDataLab/spr-cohort-explainer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WtpDataLab/spr-cohort-explainer/issues"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx scripts/test-config.mjs && tsx scripts/test-model.mjs",
+    "validate": "npm run typecheck && npm run build && npm run test"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "d3-sankey": "^0.12.3",
+    "d3-scale": "^4.0.2",
+    "html-to-image": "^1.11.13",
+    "jspdf": "^2.5.2",
+    "next": "^15.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/d3-sankey": "^0.12.4",
+    "@types/d3-scale": "^4.0.8",
+    "@types/node": "^22.10.7",
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}

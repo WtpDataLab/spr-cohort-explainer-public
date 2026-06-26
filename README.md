@@ -14,6 +14,15 @@ participant data ever enters it.
 
 **▶ Live demo — [spr-cohort-explainer.wtpdatalab.com](https://spr-cohort-explainer.wtpdatalab.com/)**
 
+**📖 Background reading — [One Return, Many Savers: How a Pension Fund's Single
+Result Becomes Each Generation's Credited Return](https://wtpdatalab.com/one-return-many-savers-how-a-pension-funds-single-result-becomes-each-generations-credited-return/)**
+— the plain-language companion to this tool. It walks through the same ideas the
+visual animates: the split into a stable **protection return** and a volatile
+**excess return**, the **toedelingsregels** that give each cohort a different
+share, the **solidarity reserve** that cushions retirees, and the **conservation
+principle** that keeps credited euros + reserve deposits equal to the collective
+result.
+
 ---
 
 ## Quick start
